@@ -12,12 +12,12 @@ function smallestMissingP(nums){
         }
     }
 
-    const missingNums = [];
+    const missingNums = [];// creating empty array for missing numbers 
 
     //finding missing numbers and pushing into array of missing nums
     for(let i = 0; i< nums.length; i++){
         if(nums[i] != i+1){
-            missingNums.push(i+1);
+            missingNums.push(i+1);//push missing number into missing numbers array
         }
     }
 
